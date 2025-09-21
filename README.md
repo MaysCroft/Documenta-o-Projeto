@@ -40,7 +40,11 @@
 <h3> Explicação do Código </h3> 
 
 <p align="justify">
-	<h5> Como Funciona </h5>
+  <h5> Como Funciona </h5>
+
+ <h5> Variáveis: </h5>
+
+ <h5> Pinos: </h5>
 
 </p>
 
@@ -60,11 +64,6 @@ A sinalização da qualidade da água utiliza três LEDs, cada um com uma cor es
 
 - Visual: A interface mudará de cor (verde para bom, amarelo para alerta, vermelho para crítico) com base nos limites predefinidos dos sensores.<br>
 - Sonoro: Um alarme sonoro será ativado quando os níveis críticos forem alcançados.
-
-<h5> Variáveis: </h5>
-
-<h5> Pinos: </h5>
-</p>
 
 <hr>
 
