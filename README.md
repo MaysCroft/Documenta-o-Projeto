@@ -42,6 +42,10 @@
 <p align="justify">
 	<h5> Como Funciona </h5>
 
+</p>
+
+<hr>
+
  <h5> Controle da Água: </h5>
 
  <h5> Indicadores Visuais: (LEDs): </h5>
