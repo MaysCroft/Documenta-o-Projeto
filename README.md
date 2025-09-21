@@ -46,9 +46,9 @@
 
 <hr>
 
- <h5> Controle da Água: </h5>
+<h3> Controle da Água: </h3>
 
- <h5> Indicadores Visuais: (LEDs): </h5>
+<h5> Indicadores Visuais: (LEDs): </h5>
 
 A sinalização da qualidade da água utiliza três LEDs, cada um com uma cor específica para indicar o estado da água:
 
@@ -60,7 +60,6 @@ A sinalização da qualidade da água utiliza três LEDs, cada um com uma cor es
 
 - Visual: A interface mudará de cor (verde para bom, amarelo para alerta, vermelho para crítico) com base nos limites predefinidos dos sensores.<br>
 - Sonoro: Um alarme sonoro será ativado quando os níveis críticos forem alcançados.
-</p>
 
 <h5> Variáveis: </h5>
 
