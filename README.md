@@ -74,29 +74,14 @@
 
 <p align="justify">
   <h5> Como Funciona </h5>
-
- <h5> Variáveis: </h5>
-
- <h5> Pinos: </h5>
-
 </p>
 
 <hr>
 
-<h3> Controle da Água: </h3>
-
-<h5> Indicadores Visuais: (LEDs): </h5>
-
-A sinalização da qualidade da água utiliza três LEDs, cada um com uma cor específica para indicar o estado da água:
-
-- LED Verde (ledAguaBoa): Indica que a água está em condições boas e seguras para a vida aquática. <br>
-- LED Amarelo (ledAguaEmAlerta): Sinaliza que a água está em um estado de alerta, indicando o início de uma possível contaminação. <br>
-- LED Vermelho (ledAguaContaminada): Alerta para um estado crítico, indicando que a água está contaminada e perigosa para a vida no ecossistema.
-
 <h5> Sistema de Alerta: </h5>
 
-- Visual: A interface mudará de cor (verde para bom, amarelo para alerta, vermelho para crítico) com base nos limites predefinidos dos sensores.<br>
-- Sonoro: Um alarme sonoro será ativado quando os níveis críticos forem alcançados.
+- Visual: A interface mudará de cor quando a caixa dágua estiver vazia.<br>
+- Sonoro: Um alarme sonoro será ativado quando o nivel de água estiver baixo.
 
 <hr>
 
