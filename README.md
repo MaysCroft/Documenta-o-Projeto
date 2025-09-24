@@ -1,4 +1,4 @@
-<h1 align = center> Projeto: Simulador de Chuva </h1>
+<h1 align = center> Projeto: Irrigação Inteligente Autônoma </h1>
 <h4> Professor: Frederico Martins Aguiar </h4>
 <h4> Alunos: Danilo Santos, Erick Silva, Lucas Aquino, Marilene Araujo, Maycon Siqueira </h4>
 
