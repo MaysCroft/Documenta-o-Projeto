@@ -6,25 +6,31 @@
 <h3> Introdução: </h3>
 
 <p align="justify">
-	Este projeto, Vigilante Hídrico, simula um sistema inteligente de monitoramento da qualidade da água. Utilizando uma combinação de hardware e software, ele coleta dados críticos em tempo real. O sistema foi desenvolvido como parte de uma atividade de grupo para o curso Técnico em Desenvolvimento de Sistemas, com o objetivo principal de aplicar conceitos de prototipagem e o uso de sensores e atuadores.
+	Este projeto é um simulador de chuva que combina hardware e software para criar um sistema de irrigação ou um efeito visual interativo. Ele utiliza um microcontrolador Arduino para controlar uma bomba d'água, simulando a queda de chuva de forma controlada.
+Neste projeto iremos apresentar sobre eletrônica básica, programação de microcontroladores e a interface entre código e componentes físicos.
 </p>
 
 <hr>
 <h3> Componentes Necessários: </h3>
 
 - Arduino Uno: É a plataforma de microcontrolador, responsável por executar a lógica do projeto lendo os dados dos sensores.
-- Sensor de pH: Essencial para medir a acidez ou alcalinidade da água. A maioria dos peixes vive em um pH neutro ou ligeiramente alcalino.
-- Sensor de Turbidez: Mede a transparência da água. Alta turbidez pode ser um sinal de poluição ou excesso de sedimentos.
-- Sensor de Temperatura: Muitos peixes são sensíveis a variações de temperatura.
-- Sensor de Sólidos Totais Dissolvidos (TDS): Mede a concentração de substâncias orgânicas e inorgânicas dissolvidas na água, o que pode indicar poluição.
-- Protoboard e Jumpers: Para montar as conexões entre o Arduino e os sensores.
+- Sensor de Umidade do Solo: Para medir a quantidade de água no solo, sendo a principal informação para determinar se a irrigação é necessária.
+- Sensor DHT11: Para medir a temperatura e a umidade do ar, permitindo uma lógica de rega mais inteligente e precisa.
+- Sensor LDR (Resistor Dependente de Luz):  Detecta a quantidade de luz no ambiente, permitindo ao sistema diferenciar o dia da noite e otimizar o horário de rega.
+- Sensor de Nível de Água (Flutuador): Avisa quando o nível de água no reservatório está baixo, protegendo a bomba e enviando um alerta.
+- Mini Bomba d'Água (3V a 6V): Responsável por mover a água do reservatório para a planta, criando o efeito de chuva.
+- Módulo Relé de 1 Canal: Atua como um interruptor eletrônico, permitindo que o arduino, opera em baixa voltagem, controle a bomba d'água, que requer mais energia.
+- Cabos de Conexão (Jumpers): Fios para conectar todos os sensores, o relé e a bomba.
+- Protoboard (Breadboard):Uma placa para montar e testar as conexões dos componentes sem precisar de solda.
+- Fonte de Alimentação Externa (12V): É necessária para alimentar o arduino e, principalmente, a bomba d'água e o relé, que consomem mais energia.
+- Mangueira Pequena (para a bomba): Para direcionar o fluxo de água do reservatório até a planta.
 - Cabo USB: Para conectar o Arduino ao computador.
 
 <hr>
 <h3> Montagem do Circuito </h3> 
 
 <p align="justify"> 
-	O circuito foi montado conforme o esquema abaixo. As conexões foram diretas e simples.
+	O circuito foi montado conforme o esquema abaixo.
 
  </p>
 
