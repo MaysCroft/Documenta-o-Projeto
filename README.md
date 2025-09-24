@@ -6,7 +6,7 @@
 <h3> Visão Geral do Projeto </h3>
 
 <p align="justify">
-	Este projeto é um sistema de automação residencial que monitora as condições de um jardim e controla um sistema de irrigação de forma inteligente e autônoma. Diferente de soluções simples, ele toma decisões com base em múltiplos fatores ambientais e oferece um painel de controle local para monitoramento em tempo real.
+	Este projeto é um sistema de automação residencial que monitora as condições de um solo e controla um sistema de irrigação de forma inteligente e autônoma. Diferente de soluções simples, ele toma decisões com base em múltiplos fatores ambientais e oferece um painel de controle local para monitoramento em tempo real.
 
 	O sistema é dividido em duas partes principais:
 - Hardware (Arduino): A "inteligência" que lê os sensores, executa a lógica e controla a bomba d'água.
