@@ -6,7 +6,7 @@
 <h3> Visão Geral do Projeto </h3>
 
 <p align="justify">
-	Este projeto é um sistema de automação residencial que monitora as condições de um solo e controla um sistema de irrigação de forma inteligente e autônoma. Diferente de soluções simples, ele toma decisões com base em múltiplos fatores ambientais e oferece um painel de controle local para monitoramento em tempo real.
+	Este projeto é um sistema de automação residencial que monitora as condições de um solo e controla um sistema de irrigação de forma inteligente e autônoma simulando uma chuva. Diferente de soluções simples, ele toma decisões com base em múltiplos fatores ambientais e oferece um painel de controle local para monitoramento em tempo real.
 
 	O sistema é dividido em duas partes principais:
 - Hardware (Arduino): A "inteligência" que lê os sensores, executa a lógica e controla a bomba d'água.
@@ -35,7 +35,7 @@
 - Mini Bomba d'Água (3V a 6V): Para irrigar a maquete.
 - Módulo Relé de 1 Canal: Para ligar e desligar a bomba com segurança.
 - Cabos de Conexão (Jumpers) e Protoboard.
-- Fonte de Alimentação Externa (5V).
+- Fonte de Alimentação Externa (12V).
 
 <hr>
 <h3> Montagem do Circuito </h3> 
@@ -77,13 +77,6 @@
 
 <hr>
 
-<h5> Sistema de Alerta: </h5>
-
-- Visual: A interface mudará de cor quando a caixa dágua estiver vazia.<br>
-- Sonoro: Um alarme sonoro será ativado quando o nivel de água estiver baixo.
-
-<hr>
-
 <h3>Interface da aplicação em C#(WPF)</h3> 
 
 <hr>
@@ -109,6 +102,13 @@
 <p align="justify">
 	<h5> Como Funciona </h5>
 </p>
+
+<hr>
+
+<h5> Sistema de Alerta: </h5>
+
+- Visual: A interface mudará de cor quando a caixa dágua estiver vazia.<br>
+- Sonoro: Um alarme sonoro será ativado quando o nivel de água estiver baixo.
 
 <hr>
 
