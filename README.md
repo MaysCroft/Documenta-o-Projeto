@@ -16,12 +16,13 @@
 <hr>
 
 <h3> Funcionalidades Principais  </h3>
+
 <p align="justify">
-- Automação Inteligente: Rega automática baseada na umidade do solo, luminosidade e umidade do ar.
-- Painel de Controle Local: Interface gráfica em C# (WPF) que exibe todos os dados dos sensores em tempo real.
-- Controle Manual: Possibilidade de ligar ou desligar a bomba diretamente pelo painel de controle.
-- Proteção do Sistema: Sensor de nível de água que impede que a bomba funcione sem água, prevenindo danos.
-- Dados Detalhados: Monitoramento da umidade do solo, temperatura, umidade do ar, luminosidade e nível do reservatório.
+- Automação Inteligente: Rega automática baseada na umidade do solo, luminosidade e umidade do ar.<br>
+- Painel de Controle Local: Interface gráfica em C# (WPF) que exibe todos os dados dos sensores em tempo real.<br>
+- Controle Manual: Possibilidade de ligar ou desligar a bomba diretamente pelo painel de controle.<br>
+- Proteção do Sistema: Sensor de nível de água que impede que a bomba funcione sem água, prevenindo danos.<br>
+- Dados Detalhados: Monitoramento da umidade do solo, temperatura, umidade do ar, luminosidade e nível do reservatório.<br>
 </p>
 
 <hr>
