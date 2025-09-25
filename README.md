@@ -92,7 +92,7 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <hr>
 
-<h5> Sistema de Alerta: </h5>
+<h3> Sistema de Alerta: </h3>
 
 - Visual: A interface mudará de cor quando a caixa dágua estiver vazia.
 
