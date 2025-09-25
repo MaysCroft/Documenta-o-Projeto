@@ -38,14 +38,12 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <h3> Componentes Necessários: </h3>
 
-- Arduino Uno: O cérebro do projeto;
-- Módulo Relé de 1 Canal: Para ligar e desligar a bomba com segurança;
-- Mini Bomba d'Água (3V a 6V): Para irrigar a maquete;
-- Sensor de Umidade do Solo: Para medir a umidade da terra;
-- Sensor de Nível de Água: Para monitorar o reservatório;
-- Protoboard: Plataforma para montagem dos circuitos eletrônicos;
-- Cabos de Conexão (Jumpers): Conexão dos componentes;
-- Fonte de Alimentação Externa (12V).
+* **Arduino Uno**.
+* **Sensor de Umidade do Solo** (Analógico).
+* **Sensor de Nível de Água** (Analógico - para reservatório).
+* **Módulo Relé** de 1 canal (para controlar a bomba).
+* **Bomba de Água**
+* **Fonte de alimentação** externa.
 
 <hr>
 <h3> Montagem do Circuito </h3> 
