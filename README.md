@@ -28,12 +28,12 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <h3> Funcionalidades Principais  </h3>
 
-- Monitoramento de Umidade	Lê continuamente o sensor de umidade do solo para determinar se a planta está seca e precisa de irrigação.
-- Monitoramento de Nível de Água (Segurança)	Lê o sensor de nível do reservatório para garantir que a bomba nunca seja ligada se a água estiver abaixo do limite mínimo.
-- Decisão Inteligente de Irrigação	A bomba só é acionada se ambos os critérios forem atendidos: Solo Seco E Água Suficiente no reservatório.
+- Monitoramento de Umidade: Lê continuamente o sensor de umidade do solo para determinar se a planta está seca e precisa de irrigação.
+- Monitoramento de Nível de Água (Segurança): Lê o sensor de nível do reservatório para garantir que a bomba nunca seja ligada se a água estiver abaixo do limite mínimo.
+- Decisão Inteligente de Irrigação:	A bomba só é acionada se ambos os critérios forem atendidos: Solo Seco E Água Suficiente no reservatório.
 - Proteção da Bomba (Anti-Seco)	Desliga imediatamente a bomba se o nível de água no reservatório cair abaixo do limite de segurança.
-- Feedback de Status Serial	O Arduino envia constantemente dados e mensagens de status (leituras e estado da bomba) pela porta serial para fins de monitoramento e depuração.
-- Monitoramento Gráfico (WPF)	A aplicação C# WPF recebe e exibe os dados seriais em uma interface de usuário amigável em tempo real.
+- Feedback de Status Serial: O Arduino envia constantemente dados e mensagens de status (leituras e estado da bomba) pela porta serial para fins de monitoramento e depuração.
+- Monitoramento Gráfico (WPF):	A aplicação C# WPF recebe e exibe os dados seriais em uma interface de usuário amigável em tempo real.
 
 <hr>
 
