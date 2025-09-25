@@ -3,14 +3,15 @@
 <h4> Alunos: Danilo Santos, Erick Silva, Lucas Aquino, Marilene Araujo, Maycon Siqueira </h4>
 
 <hr>
-<h3> Visão Geral do Projeto </h3>
+<h3> Objetivo </h3>
 
 <p align="justify">
-	Este projeto é um sistema de automação residencial que monitora as condições de um solo e controla um sistema de irrigação de forma inteligente e autônoma simulando uma chuva. Diferente de soluções simples, ele toma decisões com base em múltiplos fatores ambientais e oferece um painel de controle local para monitoramento em tempo real.
-	
-	O sistema é dividido em duas partes principais:
-- Hardware (Arduino): A "inteligência" que lê os sensores, executa a lógica e controla a bomba d'água.
-- Software (C# com WPF): Um painel de controle de desktop que se conecta ao Arduino via USB para exibir os dados dos sensores e permitir o controle manual.
+	Objetivo
+
+Garantir que a irrigação do solo ocorra apenas quando:
+1.  O **Solo** estiver seco (necessidade de água).
+2.  Houver **Água Suficiente** no reservatório (segurança para a bomba).
+   
 </p>
 
 <hr>
