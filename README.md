@@ -116,6 +116,14 @@ A comunicação entre o Arduino (o controlador) e o C# WPF (o monitor) é realiz
 - Envia Status: Em seguida, ele envia a mensagem de status da bomba (por exemplo: LIGANDO BOMBA. ou Solo umido. Bomba permanece desligada.).
 - Terminação: O Arduino finaliza cada mensagem (linha) com um caractere de nova linha (\n) usando Serial.println().
 
+  3. Recebimento e Interpretação (Parsing)
+     
+A aplicação C# WPF atua como o receptor e processador dos dados:
+Evento DataReceived: Quando o Arduino envia dados, o evento arduinoPort.DataReceived é acionado no C#.
+Leitura de Linha: O C# utiliza o método arduinoPort.ReadLine() para ler o buffer de dados até encontrar o caractere de nova linha (\n), garantindo que receba a mensagem completa de uma só vez.
+Atualização da UI: Dentro do manipulador de eventos, o C# faz o parsing (análise) das strings recebidas:
+Se a string começar com Umidade do Solo:, ele extrai os valores numéricos de umidade e nível.
+Se a string contiver LIGANDO BOMBA ou Nivel de agua baixo, ele atualiza a cor e o texto do indicador de status da bomba na interface gráfica (XAML).
 
 </p>
 
