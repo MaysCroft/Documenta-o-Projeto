@@ -100,6 +100,27 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <h3> O Processo de Comunicação: Serial e Assíncrono </h3>
 
+<p align="justify">
+	
+A comunicação entre o Arduino (o controlador) e o C# WPF (o monitor) é realizada através da Porta Serial Virtual estabelecida via USB, seguindo um fluxo de dados simples e unidirecional (do Arduino para o PC).
+
+1. Estabelecimento da Conexão
+   
+Setup:	O código inicia a comunicação serial na taxa de 9600 bps com Serial.begin(9600);
+- A aplicação C# instancia o objeto SerialPort e o configura para a mesma porta COM e taxa (9600).
+Abertura: O Arduino está sempre enviando dados após a inicialização.
+- O C# chama o método arduinoPort.Open() para estabelecer a escuta ativa na porta.
+
+2. Fluxo de Dados (Transmissão)
+
+- Arduino atua como o transmissor, enviando informações importantes a cada ciclo do loop() (a cada 2 segundos).
+- Envia Leituras: O Arduino envia os valores dos sensores em uma única linha formatada, como: Umidade do Solo: 750 | Nivel da Agua: 300.
+- Envia Status: Em seguida, ele envia a mensagem de status da bomba (por exemplo: LIGANDO BOMBA. ou Solo umido. Bomba permanece desligada.).
+- Terminação: O Arduino finaliza cada mensagem (linha) com um caractere de nova linha (\n) usando Serial.println().
+
+
+</p>
+
 <hr>
 
 <h3> Dificuldades: </h3>
