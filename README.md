@@ -80,14 +80,6 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <hr>
 
-<h3> Explicação do Código </h3> 
-
-<p align="justify">
-  <h5> Como Funciona </h5>
-</p>
-
-<hr>
-
 <h3>Interface da aplicação em C# (WPF)</h3> 
 
 <hr>
@@ -96,23 +88,7 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <hr>
 
-<h3> Explicação do Código </h3> 
-
-<p align="justify">
-	<h5> Como Funciona </h5>
-</p>
-
-<hr>
-
 <h3> O Backend (Lógica com C#) </h3> 
-
-<hr>
-
-<h3> Explicação do Código </h3> 
-
-<p align="justify">
-	<h5> Como Funciona </h5>
-</p>
 
 <hr>
 
