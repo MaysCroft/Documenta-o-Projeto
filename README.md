@@ -3,6 +3,15 @@
 <h4> Alunos: Danilo Santos, Erick Silva, Lucas Aquino, Marilene Araujo, Maycon Siqueira </h4>
 
 <hr>
+
+<h3> Introdução </h3>
+
+<p align="justify">
+
+ Este projeto implementa um sistema de automação para irrigação utilizando um microcontrolador **Arduino** para ler sensores e controlar uma bomba, e uma aplicação **C# WPF** para monitorar o status do sistema em tempo real via comunicação serial.
+ 
+</p>
+
 <h3> Objetivo </h3>
 
 <p align="justify">
