@@ -28,11 +28,12 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <h3> Funcionalidades Principais  </h3>
 
-- Automação Inteligente: Rega automática baseada na umidade do solo, luminosidade e umidade do ar.<br>
-- Painel de Controle Local: Interface gráfica em C# (WPF) que exibe todos os dados dos sensores em tempo real.<br>
-- Controle Manual: Possibilidade de ligar ou desligar a bomba diretamente pelo painel de controle.<br>
-- Proteção do Sistema: Sensor de nível de água que impede que a bomba funcione sem água, prevenindo danos.<br>
-- Dados Detalhados: Monitoramento da umidade do solo, temperatura, umidade do ar, luminosidade e nível do reservatório.<br>
+- Monitoramento de Umidade	Lê continuamente o sensor de umidade do solo para determinar se a planta está seca e precisa de irrigação.
+- Monitoramento de Nível de Água (Segurança)	Lê o sensor de nível do reservatório para garantir que a bomba nunca seja ligada se a água estiver abaixo do limite mínimo.
+- Decisão Inteligente de Irrigação	A bomba só é acionada se ambos os critérios forem atendidos: Solo Seco E Água Suficiente no reservatório.
+- Proteção da Bomba (Anti-Seco)	Desliga imediatamente a bomba se o nível de água no reservatório cair abaixo do limite de segurança.
+- Feedback de Status Serial	O Arduino envia constantemente dados e mensagens de status (leituras e estado da bomba) pela porta serial para fins de monitoramento e depuração.
+- Monitoramento Gráfico (WPF)	A aplicação C# WPF recebe e exibe os dados seriais em uma interface de usuário amigável em tempo real.
 
 <hr>
 
