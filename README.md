@@ -131,6 +131,13 @@ A comunicação entre o Arduino (o controlador) e o C# WPF (o monitor) é realiz
 
 <h3> Dificuldades: </h3>
 
+2. Dificuldades Logísticas (Recursos Físicos)
+A maior dificuldade logística impactou diretamente a fase de testes e depuração:
+
+- Ausência de Componentes para Teste Doméstico: O grupo não possuía o Arduino, o relé ou os sensores em casa para realizar testes preliminares. Isso impediu a pré-programação e a depuração do código com dados reais.
+
+- Recursos Entregues na Véspera: Os componentes físicos (hardware) só ficaram disponíveis no dia anterior à apresentação do projeto. Isso reduziu drasticamente o tempo de integração do código C# com o Arduino e a calibração dos limiares dos sensores a poucas horas, exigindo foco total na funcionalidade básica do projeto.
+
 <hr>
 
 <h3> Montagem do Protótipo: </h3>
