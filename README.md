@@ -60,12 +60,14 @@ Garantir que a irrigação do solo ocorra apenas quando:
  <p align="justify">
 	Este é o esquema de conexão para ligar os componentes ao Arduino:
 	 
-- Relé da Bomba: Pino digital 7.
-- Sensor de Umidade do Solo: Pino analógico A0.
-- Sensor de Nível de Água: Pino digital 8.
-- Sensor DHT11: Pino digital 4.
-- Sensor LDR: Pino analógico A1.
-- Conecte as outras extremidades dos componentes às fontes de energia apropriadas (+5V e GND).
+ 1. Conexões de Entrada (Sensores Analógicos)
+- Sensor de Umidade do Solo: Pino digital A5 VCC (5V) e GND no Arduino.
+- Sensor de Nível de Água: Pino digital	A1	VCC (5V) e GND no Arduino.
+
+  2. Conexão de Saída (Controle da Bomba)
+  O relé é controlado por uma porta digital e, por sua vez, controla a bomba.  
+- Módulo Relé (IN): Pino digital 7	VCC (5V) e GND no Arduino.
+
 </p>
 
 <hr>
