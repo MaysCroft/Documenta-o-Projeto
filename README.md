@@ -64,7 +64,7 @@ Garantir que a irrigação do solo ocorra apenas quando:
 - Sensor de Umidade do Solo: Pino digital A5 VCC (5V) e GND no Arduino.
 - Sensor de Nível de Água: Pino digital	A1	VCC (5V) e GND no Arduino.
 
-  2. Conexão de Saída (Controle da Bomba)
+2. Conexão de Saída (Controle da Bomba)
   O relé é controlado por uma porta digital e, por sua vez, controla a bomba.  <br>
 - Módulo Relé (IN): Pino digital 7	VCC (5V) e GND no Arduino.
 
