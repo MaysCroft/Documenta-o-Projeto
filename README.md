@@ -131,6 +131,13 @@ A comunicação entre o Arduino (o controlador) e o C# WPF (o monitor) é realiz
 
 <h3> Desafios e Dificuldades: </h3>
 
+1. Dificuldades de Integração e Programação
+   
+- Parsing da Comunicação Serial: Garantir que o C# WPF interpretasse corretamente as múltiplas linhas de dados formatados (leituras e status) enviados pelo Arduino. Foi crucial usar Serial.ReadLine() e métodos de parsing de string robustos no C#.
+- Sincronização da UI (WPF):	O WPF exige que a atualização da interface (UI) seja feita na thread principal. Foi necessário o uso do Dispatcher.Invoke no C# para atualizar os TextBlocks com os dados recebidos da porta serial sem travar a aplicação.
+- Lógica Inversa do Relé: A maioria dos módulos relé é acionada com sinal LOW (digitalWrite(pinoRele, LOW)). Isso exigiu atenção redobrada no código do Arduino para garantir que o HIGH realmente desligasse a bomba e o LOW ligasse.
+- Calibração dos Limiares:	A definição dos valores limiarSoloSeco e limiarAguaBaixa é totalmente dependente do sensor físico. Sem testes práticos iniciais, os valores tiveram que ser estimados e ajustados rapidamente.
+
 2. Dificuldades Logísticas (Recursos Físicos)
 A maior dificuldade logística impactou diretamente a fase de testes e depuração:
 
