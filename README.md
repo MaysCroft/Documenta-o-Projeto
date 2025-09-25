@@ -106,10 +106,8 @@ A comunicação entre o Arduino (o controlador) e o C# WPF (o monitor) é realiz
 
 1. Estabelecimento da Conexão
    
-Setup:	O código inicia a comunicação serial na taxa de 9600 bps com Serial.begin(9600);
-- A aplicação C# instancia o objeto SerialPort e o configura para a mesma porta COM e taxa (9600).
-Abertura: O Arduino está sempre enviando dados após a inicialização.
-- O C# chama o método arduinoPort.Open() para estabelecer a escuta ativa na porta.
+- Setup:	O código inicia a comunicação serial na taxa de 9600 bps com Serial.begin(9600). A aplicação C# instancia o objeto SerialPort e o configura para a mesma porta COM e taxa (9600).
+- Abertura: O Arduino está sempre enviando dados após a inicialização. O C# chama o método arduinoPort.Open() para estabelecer a escuta ativa na porta.
 
 2. Fluxo de Dados (Transmissão)
 
