@@ -76,7 +76,7 @@
 
 <hr>
 
-<h3>Interface da aplicação em C#(WPF)</h3> 
+<h3>Interface da aplicação em C# (WPF)</h3> 
 
 <hr>
 
@@ -106,8 +106,7 @@
 
 <h5> Sistema de Alerta: </h5>
 
-- Visual: A interface mudará de cor quando a caixa dágua estiver vazia.<br>
-- Sonoro: Um alarme sonoro será ativado quando o nivel de água estiver baixo.
+- Visual: A interface mudará de cor quando a caixa dágua estiver vazia.
 
 <hr>
 
@@ -121,6 +120,20 @@
 
 <h3> Montagem do Protótipo: </h3>
 
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0016.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0018.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0025.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0026.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0029.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0031.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0041.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0044.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0027.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0028.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0036.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0045.jpg" height="700" width="700"/> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0043.jpg" /> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0047.jpg" /> </p>
 <hr>
 
 <h3> Protótipo Pronto: </h3>
