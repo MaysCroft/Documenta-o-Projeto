@@ -38,12 +38,12 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <h3> Componentes Necessários: </h3>
 
-* **Arduino Uno**.
-* **Sensor de Umidade do Solo** (Analógico).
-* **Sensor de Nível de Água** (Analógico - para reservatório).
-* **Módulo Relé** de 1 canal (para controlar a bomba).
-* **Bomba de Água**
-* **Fonte de alimentação** externa.
+* **Arduino Uno**: Atua como o Cérebro do Sistema, Executa a lógica de controle, lê sensores e decide o acionamento da bomba.
+* **Sensor de Umidade do Solo** - (Analógico) Entrada: Mede a umidade para determinar se o solo está seco e precisa de água.
+* **Sensor de Nível de Água** - Entrada de Segurança: Verifica se há água suficiente no reservatório para a bomba operar.
+* **Módulo Relé** de 1 canal -  Atuador: Interruptor eletrônico que permite ao Arduino ligar/desligar a bomba (alta voltagem/corrente).
+* **Bomba de Água** - Executora: Move fisicamente a água do reservatório para a planta quando acionada.
+* **Fonte de alimentação** externa. Energia: Fornece a corrente necessária para alimentar a bomba de água, separadamente do Arduino.
 
 <hr>
 <h3> Montagem do Circuito </h3> 
