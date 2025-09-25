@@ -27,14 +27,13 @@
 
 <h3> Componentes Necessários: </h3>
 
-- Arduino Uno: O cérebro do projeto.
-- Sensor de Umidade do Solo: Para medir a umidade da terra.
-- Sensor DHT11: Para medir a temperatura e umidade do ar.
-- Sensor LDR (Fotorresistor): Para medir a luminosidade.
-- Sensor de Nível de Água (Flutuador): Para monitorar o reservatório.
-- Mini Bomba d'Água (3V a 6V): Para irrigar a maquete.
-- Módulo Relé de 1 Canal: Para ligar e desligar a bomba com segurança.
-- Cabos de Conexão (Jumpers) e Protoboard.
+- Arduino Uno: O cérebro do projeto;
+- Módulo Relé de 1 Canal: Para ligar e desligar a bomba com segurança;
+- Mini Bomba d'Água (3V a 6V): Para irrigar a maquete;
+- Sensor de Umidade do Solo: Para medir a umidade da terra;
+- Sensor de Nível de Água: Para monitorar o reservatório;
+- Protoboard: Plataforma para montagem dos circuitos eletrônicos;
+- Cabos de Conexão (Jumpers): Conexão dos componentes;
 - Fonte de Alimentação Externa (12V).
 
 <hr>
