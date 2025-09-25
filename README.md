@@ -129,7 +129,7 @@ A comunicação entre o Arduino (o controlador) e o C# WPF (o monitor) é realiz
 
 <hr>
 
-<h3> Dificuldades: </h3>
+<h3> Desafios e Dificuldades: </h3>
 
 2. Dificuldades Logísticas (Recursos Físicos)
 A maior dificuldade logística impactou diretamente a fase de testes e depuração:
