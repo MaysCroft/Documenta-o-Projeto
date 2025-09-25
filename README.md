@@ -122,8 +122,8 @@ A aplicação C# WPF atua como o receptor e processador dos dados: <br>
 1. Evento DataReceived: Quando o Arduino envia dados, o evento arduinoPort.DataReceived é acionado no C#.
 2. Leitura de Linha: O C# utiliza o método arduinoPort.ReadLine() para ler o buffer de dados até encontrar o caractere de nova linha (\n), garantindo que receba a mensagem completa de uma só vez.
 3. Atualização da UI: Dentro do manipulador de eventos, o C# faz o parsing (análise) das strings recebidas:
-- Se a string começar com Umidade do Solo:, ele extrai os valores numéricos de umidade e nível.
-- Se a string contiver LIGANDO BOMBA ou Nivel de agua baixo, ele atualiza a cor e o texto do indicador de status da bomba na interface gráfica (XAML).
+  - Se a string começar com Umidade do Solo:, ele extrai os valores numéricos de umidade e nível.
+  - Se a string contiver LIGANDO BOMBA ou Nivel de agua baixo, ele atualiza a cor e o texto do indicador de status da bomba na interface gráfica (XAML).
 
 </p>
 
