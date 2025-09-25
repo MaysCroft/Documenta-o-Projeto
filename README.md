@@ -6,8 +6,7 @@
 <h3> Objetivo </h3>
 
 <p align="justify">
-	Objetivo
-
+	
 Garantir que a irrigação do solo ocorra apenas quando:
 1.  O **Solo** estiver seco (necessidade de água).
 2.  Houver **Água Suficiente** no reservatório (segurança para a bomba).
