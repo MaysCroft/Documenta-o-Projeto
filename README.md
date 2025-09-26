@@ -81,7 +81,7 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <hr>
 
-<h3>Interface da aplicação em C# (WPF)</h3> 
+<h3> Interface da aplicação em C# (WPF) </h3> 
 
 <hr>
 
@@ -93,7 +93,7 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <hr>
 
-<h3> O Backend (Lógica com C#) </h3> 
+<h3> O Back-end (Lógica com C#) </h3> 
 
 <p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Back%201.png" /> </p>
 <p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Back%202.png" /> </p>
@@ -173,5 +173,3 @@ A maior dificuldade logística impactou diretamente a fase de testes e depuraç�
 <p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0043.jpg" height="1000" width="700"/> </p>
 <p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/IMG-20250924-WA0047.jpg" height="1000" width="700"/> </p>
 <hr>
-
-<h3> Protótipo Pronto: </h3>
