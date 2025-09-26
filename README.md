@@ -74,9 +74,10 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <h3> Código do Arduino </h3> 
 
- <p align="justify">
-	O código abaixo controla a leitura do sensor. 
-</p>
+<p align="justify"> O código abaixo controla a leitura do sensor. </p>
+
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Arduino%201.png" /> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Arduino%202.png" /> </p>
 
 <hr>
 
@@ -84,11 +85,19 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <hr>
 
-<h3> O Frontend (Interface Visual com XAML)</h3> 
+<h3> O Front-end (Interface Visual com XAML)</h3> 
+
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Front%201.png" /> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Front%202.png" /> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Front%203.png" /> </p>
 
 <hr>
 
 <h3> O Backend (Lógica com C#) </h3> 
+
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Back%201.png" /> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Back%202.png" /> </p>
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Back%203.png" /> </p>
 
 <hr>
 
