@@ -81,7 +81,9 @@ Garantir que a irrigação do solo ocorra apenas quando:
 
 <hr>
 
-<h3> Interface da aplicação em C# (WPF) </h3> 
+<h3> Interface da aplicação em C# (WPF) </h3>
+
+<p align="center"> <img src="https://github.com/MaysCroft/Documentacao-Projeto-Simulador-de-Chuva/blob/main/Imagens/Interface.jpg" /> </p>
 
 <hr>
 
